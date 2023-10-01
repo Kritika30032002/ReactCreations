@@ -1,7 +1,11 @@
 ## Available Scripts
 
+In order to clone the project to your local PC, you can run:
+### `git clone <URL>`
+
 In the project directory, you can run:
 
+### `npm i`
 ### `npm start`
 
 Runs the app in the development mode.\
