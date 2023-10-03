@@ -1,8 +1,27 @@
 ### THIS REACT APP WAS BUILD USING VITE
 
-## STEPS TO RUN THE PROJECT
+## STEPS TO Setup THE PROJECT Locally
  
-First clone the repository using the command - git clone <repo url>
-Run "npm install".(if node modules are already present then no need for running this command)
-Run "cd src".
-Run "npm run dev" to run the app locally.
+1. First clone the repository using the command - 
+```
+git clone https://github.com/Kritika30032002/ReactCreations.git
+```
+
+2. cd to project folder
+```
+cd restaurant-app
+```
+
+3. Run "npm install".
+```
+npm install
+```
+4.Run "npm run dev" to run the app locally.
+```
+npm run dev
+```
+
+5. Open it in browser.
+```
+http://localhost:3000/)http://localhost:3000/
+```
