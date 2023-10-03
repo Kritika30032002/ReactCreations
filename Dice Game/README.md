@@ -2,19 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## git clone <URL>
-run this to clone the project into your directory
+1.Run in terminal to clone the repository into your directory
+```
+ git clone https://github.com/Kritika30032002/ReactCreations.git
+```
+2. Cd to project folder
+```
+cd Dice-Game
+```
+3. Run npm install to download node_modules
+```
+ npm i
+```
 
-### npm i
+4. Runs the app in the development mode.
+```
+npm start
+```
 
-to download node_modules run npm i
-
-### `npm start`
-
-Runs the app in the development mode.\
+5.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### 'Game OverView'
