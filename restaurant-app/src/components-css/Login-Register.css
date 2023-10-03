@@ -1,0 +1,50 @@
+.login-register{
+    height: 100%;
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-register-form{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-register-form button{
+    height:30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 17px;
+    background-color: #495e57;
+    color: white;
+}
+
+.input-icons i {
+    position: absolute;
+}
+ 
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+ 
+.icon {
+    padding: 10px;
+    color: #495e57;
+    min-width: 50px;
+    text-align: center;
+}
+ 
+.input-field {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.toast-position{
+    top: 8rem ;
+}
