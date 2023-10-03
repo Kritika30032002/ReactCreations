@@ -1,0 +1,132 @@
+/* emojicss.css */
+
+/* Container styles */
+div {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  /* Light gray background */
+}
+
+/* Header styles */
+p {
+  font-size: 28px;
+  /* Larger font size */
+  color: #333;
+  /* Dark gray color */
+  margin-bottom: 20px;
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #007bff;
+  /* Blue border */
+  border-radius: 8px;
+  /* Rounded corners */
+  font-size: 18px;
+  margin-bottom: 20px;
+  outline: none;
+  /* Remove input outline on focus */
+}
+
+/* Emoji container styles */
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /* Slightly rounded corners */
+  margin-bottom: 15px;
+  background-color: #fff;
+  /* White background */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  /* Box shadow for depth */
+  transition: transform 0.2s;
+  /* Smooth hover effect */
+}
+
+/* Emoji symbol styles */
+span:first-child {
+  font-size: 36px;
+  /* Larger font size */
+  color: #007bff;
+  /* Blue color for emoji symbols */
+}
+
+/* Emoji title styles (hidden by default) */
+span.hide {
+  display: none;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  /* Smooth hover effect */
+}
+
+/* Copy message styles */
+span.copy {
+  color: green;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Hover effect for buttons and emoji containers */
+.cont:hover {
+  transform: translateY(-2px);
+}
+
+button:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
+/* emojicss.css */
+
+/* ... (previous CSS styles) */
+
+/* Emoji container styles */
+.cont {
+  position: relative; /* Added relative positioning */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 40px 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+/* Emoji title styles (hidden by default) */
+span.hide {
+  display: block; /* Changed display to block */
+  position: absolute; /* Added absolute positioning */
+  top: 100%; /* Position it below the emoji */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text color */
+  padding: 5px 10px;
+  border-radius: 5px;
+  opacity: 0; /* Hidden by default */
+  pointer-events: none; /* Ignore hover events */
+  transition: opacity 0.2s;
+}
+
+/* Hover effect to show the emoji title */
+.cont:hover .hide {
+  opacity: 1;
+}
