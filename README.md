@@ -64,12 +64,16 @@ git clone https://github.com/Kritika30032002/ReactCreations.git
 
 Add your project in the separate folder. Whether it's adding a new project or improving documentation, your contribution is valuable.
 
-### 4. Add it to staging area
+### 4. Add Proper Readme
+
+Readme should describe the proper local setup steps in sequence.
+
+### 5. Add it to staging area
 ```
 git add <path to the file you worked on>
 ```
 
-### 5. Commit Changes
+### 6. Commit Changes
 
 Commit your changes with a clear and concise commit message explaining the purpose of the changes.
 
@@ -77,7 +81,7 @@ Commit your changes with a clear and concise commit message explaining the purpo
 git commit -m "Add your commit message here"
 ```
 
-### 6. Push Changes
+### 7. Push Changes
 
 Push your changes to your forked repository on GitHub.
 
@@ -85,11 +89,11 @@ Push your changes to your forked repository on GitHub.
 git push origin main
 ```
 
-### 7. Create a Pull Request
+### 8. Create a Pull Request
 
 Go to the original repository on GitHub and click on the "New Pull Request" button. Compare your branch with the main repository's branch. Provide a detailed description of your changes in the pull request, and submit it for review.
 
-### 8. Wait for Review and Merge
+### 9. Wait for Review and Merge
 
 Once you've submitted a pull request, I will review your changes. Be patient during this process, and be ready to address any feedback or questions. Once your changes are approved, they will be merged into the main project.
 
