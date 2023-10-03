@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-ad{
+    border: 1px solid black;
+    height: 450px;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bannerimg{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    opacity: 0.6;
+}
+
+.main-ad-div{
+    position: absolute;
+    height: 400px;
+    border-radius: 3px;
+    width: 600px;
+    box-shadow: 2px 2px 10px;
+    display: flex;
+    margin-left: 10%;
+    justify-content: center;
+    align-items:center;
+}
+
+.main-ad-div-ns{
+    height: 300px;
+    width: 500px;
+}
+
+.main-ad-div-title{
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.main-ad-div-ns div{
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+.main-ad-btn{
+    width:150px;
+    height: 40px;
+    font-size: 20px;
+    gap:4px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: gray;
+    border: transparent;
+    color: white;
+    border: 1px solid gray;
+}
+
+
+.main-ad-btn:hover{
+  background-color: white;
+  color: gray;
+}
+
+@media only screen and (max-width: 766px) {
+
+
+    .main-ad-div-title{
+        font-size: 30px;
+        font-family: 'Roboto'
+    }
+
+    .main-ad-div-ns div{
+        margin-top: 30px;
+        font-size: 18px
+    }
+
+    .main-ad-div-ns{
+        height: 300px;
+        width: 400px;
+    }
+
+    .main-ad-div{
+        width:450px;
+    }
+
+    .main-ad-btn{
+        width:100px;
+        height: 40px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: gray;
+        border: transparent;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 645px){
+
+    .main-ad-div{
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+        align-items:center;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .main-ad-div{
+        display: flex;
+        margin-left: 2%;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .main-ad-div-ns{
+        height: 300px;
+        width: 300px;
+    }
+
+    .main-ad-div{
+        width:350px;
+    }
+}
+

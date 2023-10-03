@@ -1,0 +1,41 @@
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: whitesmoke; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+background:  linear-gradient(0deg, black 0%, white 100%);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:  gray;
+}
+
+#root{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+input {
+height: 35px;
+width: 250px;
+border-radius: 5px;
+border: 1px solid gray;
+font-size: 17px;
+text-align: center;
+}
+
+::-webkit-input-placeholder {
+text-align: center;
+}
+:-moz-placeholder {
+text-align: center;
+}
