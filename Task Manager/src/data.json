@@ -1,0 +1,113 @@
+{
+  "boards": [
+    {
+      "name": "Semester Tasks",
+      "isActive": true,
+      "columns": [
+        {
+          "name": "To-Do",
+          "tasks": [
+            {
+              "title": "Complete Math Homework",
+              "description": "Chapter 3 exercises",
+              "status": "To-Do",
+              "subtasks": [
+                {
+                  "title": "Solve 3.1 - 3.5",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Review 3.6 - 3.8",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Prepare for History Quiz",
+              "description": "Study key events from Chapter 5",
+              "status": "To-Do",
+              "subtasks": [
+                {
+                  "title": "Read Chapter 5",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Create Quiz Flashcards",
+                  "isCompleted": false
+                }
+              ]
+            },
+            {
+              "title": "Science Project",
+              "description": "Research and prepare presentation",
+              "status": "To-Do",
+              "subtasks": [
+                {
+                  "title": "Gather Research Materials",
+                  "isCompleted": false
+                },
+                {
+                  "title": "Outline Presentation",
+                  "isCompleted": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "In Progress",
+          "tasks": []
+        },
+        {
+          "name": "Completed",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "name": "Extracurricular Activities",
+      "isActive": false,
+      "columns": [
+        {
+          "name": "Upcoming Events",
+          "tasks": [
+            {
+              "title": "Student Council Meeting",
+              "description": "Discuss event planning",
+              "status": "To-Do",
+              "subtasks": []
+            },
+            {
+              "title": "Science Club Presentation",
+              "description": "Prepare for club presentation",
+              "status": "To-Do",
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "name": "Ongoing Projects",
+          "tasks": [
+            {
+              "title": "School Newspaper",
+              "description": "Write articles for the next issue",
+              "status": "In Progress",
+              "subtasks": []
+            }
+          ]
+        },
+        {
+          "name": "Completed Events",
+          "tasks": [
+            {
+              "title": "Debate Club Tournament",
+              "description": "Participated and won 2nd place",
+              "status": "Done",
+              "subtasks": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
