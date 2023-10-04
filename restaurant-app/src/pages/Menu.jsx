@@ -13,8 +13,8 @@ function Menu() {
                     <p style={{textAlign: 'center', fontSize: '40px',marginBottom: '30px', fontWeight: 'bolder'}}>Menu</p>
                     </div>
                     <div className='grids'>
-                        {menuItems.length > 0 && menuItems.map((menuItem) => {
-                            return <Card title = {menuItem.title}  description = {menuItem.description} img = {menuItem.image} price = {menuItem.price} key = {menuItem.image} />
+                        {menuItems.length > 0 && menuItems.map((menuItem,ind) => {
+                            return <Card title = {menuItem.title}  description = {menuItem.description} food_img = {menuItem.image} price = {menuItem.price} key = {ind} />
                         })}
                     </div>
                 </div>
