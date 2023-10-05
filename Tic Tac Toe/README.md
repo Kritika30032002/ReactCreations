@@ -9,7 +9,7 @@ This pull request adds a Tic Tac Toe game implementation to the project. The imp
 - A "Play Again" button resets the game.
 
 ## Getting Started
-Follow these steps to set up the calculator application on your local development environment.
+Follow these steps to set up the Tic Tac Toe application on your local development environment.
 
 
 # Prerequisites
