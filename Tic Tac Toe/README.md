@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+# Vite + React + TypeScript Tic Tac Toe
+## Description
+This pull request adds a Tic Tac Toe game implementation to the project. The implementation includes the following features:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- A functional Tic Tac Toe game with a 3x3 board.
+- Players can take turns to place 'X' and 'O' on the board.
+- The game checks for a win or a draw and displays the result.
+- Confetti animation is shown when a player wins or when it's a draw.
+- A "Play Again" button resets the game.
 
-Currently, two official plugins are available:
+## Getting Started
+Follow these steps to set up the calculator application on your local development environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Prerequisites
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Installation :
+ In shell :
+ -->Folk the main repository
+ -->Clone folked the repository using "git clone https://github.com/your-username/ReactCreations.git
+ -->open repository in your text editor
+ --> change directory to Calculator using "cd 'Tic tac toe' "
+ -->Make sure to install npm using "npm i"
+ -->Now type "npm run dev" for runing the app into your local environment.
