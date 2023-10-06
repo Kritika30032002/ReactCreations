@@ -1,0 +1,90 @@
+/* App container styles */
+.App {
+  text-align: center;
+  margin: 20px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Quiz title styles */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007BFF;
+}
+
+/* Question styles with fade-in transition */
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Answer option styles */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+  background-color: #fff;
+  color: #007BFF;
+  font-weight: bold;
+  text-align: center;
+}
+
+.option:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+/* Button styles */
+button {
+  font-size: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Result styles */
+.result {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Timer styles */
+.timer {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+/* Additional styling for images */
+img {
+  max-width: 100%;
+  max-height: 200px; /* Adjust image height as needed */
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Background and color for the result container */
+.result-container {
+  background-color: #07A61A; /* Green background color */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
