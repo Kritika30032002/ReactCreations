@@ -7,11 +7,6 @@ function Header() {
     return (
         <>
             <header>
-                <div className='logo'>
-                    <div>
-                        <img src={logo} alt="" />
-                    </div>
-                </div>
                 {/* {user ? <NavbarLoggedIn />: <Navbar />} */}
                 <Navbar />
             </header>

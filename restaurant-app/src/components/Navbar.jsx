@@ -1,5 +1,5 @@
 import React from 'react'
-import navlogo from '../assets/Asset 9@4x.png';
+import navlogo from '../assets/img1.png';
 import '../components-css/Header.css'
 import {Link} from 'react-router-dom';
 
@@ -8,7 +8,7 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <Link to='/' className='navlogo-container'>
-                    <img src={navlogo} alt="" />
+                    <img src={navlogo} alt="" className='nav-logo-img'/>
                 </Link>
                 <div className='nav-link'>
                     <Link to="/">Home</Link>
