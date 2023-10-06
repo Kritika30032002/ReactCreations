@@ -1,45 +1,71 @@
-import {useState} from "react";
+import { useState, useEffect } from "react";
 import styles from "./calculator.module.css"
-const Calculator=()=>{
-const [display,setDisplay]=useState('');
-const handleButtonClick=(value:string)=>{
-    if (value === '=') {
-        try {
-          const result = eval(display);
-          setDisplay(result.toString());
-        } catch (error) {
-          setDisplay('Error');
-        }
-      } else if (value === 'C') {
-        setDisplay('');
-      } else {
-        setDisplay((prevDisplay) => prevDisplay + value);
-      }
-}
-return (
+
+const Calculator = () => {
+  const [result, setResult] = useState('');
+
+  const handleClick = e => setResult(result.concat(e.target.id))
+
+  const deleteEl = () => setResult(result.slice(0, -1))
+  const clear = () => setResult('')
+
+  const calculate = () => {
+    try {
+      setResult(eval(result).toString())
+    } catch (error) {
+      setResult("")
+    }
+  }
+
+  const handleKeyPress = (e) => {
+    const key = e.key;
+    if (/[0-9.+\-*/]/.test(key)) {
+      setResult(result.concat(key))
+    } else if (key === 'Backspace') {
+      deleteEl();
+    } else if (key === 'Enter') {
+      calculate();
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('keydown', handleKeyPress);
+    return () => {
+      document.removeEventListener('keydown', handleKeyPress);
+    }
+  }, [result]);
+
+
+  return (
     <div className={styles.calculatorContainer}>
-    <div className={styles.calculator}>
-      <div className={styles.display}>{display}</div>
-      <div className={styles.buttons}>
-        <button onClick={() => handleButtonClick('7')}>7</button>
-        <button onClick={() => handleButtonClick('8')}>8</button>
-        <button onClick={() => handleButtonClick('9')}>9</button>
-        <button onClick={() => handleButtonClick('+')}>+</button>
-        <button onClick={() => handleButtonClick('4')}>4</button>
-        <button onClick={() => handleButtonClick('5')}>5</button>
-        <button onClick={() => handleButtonClick('6')}>6</button>
-        <button onClick={() => handleButtonClick('-')}>-</button>
-        <button onClick={() => handleButtonClick('1')}>1</button>
-        <button onClick={() => handleButtonClick('2')}>2</button>
-        <button onClick={() => handleButtonClick('3')}>3</button>
-        <button onClick={() => handleButtonClick('*')}>*</button>
-        <button onClick={() => handleButtonClick('0')}>0</button>
-        <button onClick={() => handleButtonClick('.')}>.</button>
-        <button className="equals" onClick={() => handleButtonClick('=')}>=</button>
-        <button className="clear" onClick={() => handleButtonClick('C')}>C</button>
-        <button onClick={() => handleButtonClick('/')}>/</button>
-      </div>
-    </div></div>
+      <div className={styles.calculator}>
+        <div className={styles.display}>{result}</div>
+        <div className={styles.buttons}>
+
+          <button onClick={clear} className={styles.operator}>AC</button>
+          <button onClick={deleteEl} className={styles.operator}>DE</button>
+
+          <button id="." className={styles.operator} >.</button>
+          <button id="/" className={styles.operator} >/</button>
+
+          <button id="7" className={styles.number} onClick={handleClick}>7</button>
+          <button id="8" className={styles.number} onClick={handleClick}>8</button>
+          <button id="9" className={styles.number} onClick={handleClick}>9</button>
+          <button id="+" className={styles.operator} onClick={handleClick}>+</button>
+          <button id="4" className={styles.number} onClick={handleClick}>4</button>
+          <button id="5" className={styles.number} onClick={handleClick}>5</button>
+          <button id="6" className={styles.number} onClick={handleClick}>6</button>
+          <button id="-" className={styles.operator} onClick={handleClick}>-</button>
+          <button id="1" className={styles.number} onClick={handleClick}>1</button>
+          <button id="2" className={styles.number} onClick={handleClick}>2</button>
+          <button id="3" className={styles.number} onClick={handleClick}>3</button>
+          <button id="*" className={styles.operator} onClick={handleClick}>*</button>
+          <button id="00" className={styles.number} onClick={handleClick}>00</button>
+          <button id="0" className={styles.number} onClick={handleClick}>0</button>
+
+          <button id="=" className={styles.equals} onClick={calculate}>=</button>
+        </div>
+      </div></div>
   );
 }
 export default Calculator
