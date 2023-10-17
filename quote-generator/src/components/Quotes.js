@@ -15,22 +15,18 @@ const Quotes = () => {
   const randquote = () => {
     const n = Math.floor(Math.random() * data.length);
     setquote(data[n]);
-    //    setquote(enteri[0][1])
-    //   const quo= data.find((item,index)=>{
-    //     return index=num;
-    //      })
-    //      setquote(quo);
   };
   const setInitialQuote = (data) => {
     const n = Math.floor(Math.random() * data.length);
     setquote(data[n]);
   };
+  
   return (
     <div>
       <section>
         <div>
           <button onClick={randquote}>New Quote</button>
-          {<h3>"{quote.text}</h3>}
+          {<h3>"{quote.text}"</h3>}
           {<div>- {quote.author}</div>}
         </div>
       </section>
