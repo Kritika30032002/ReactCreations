@@ -88,3 +88,15 @@ img {
   border-radius: 5px;
   margin-top: 20px;
 }
+
+.question-container{
+  width: 90vw;
+}
+
+.quiz-container{
+  height: 90vh;
+}
+
+.options-list{
+  list-style: none;
+}
