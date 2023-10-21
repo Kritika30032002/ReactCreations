@@ -16,7 +16,7 @@ cd crime-pie-pdf
 ```
 npm install
 ```
-4.Run "npm run dev" to run the app locally.
+4.Run "npm start" to run the app locally.
 ```
 npm start
 ```
