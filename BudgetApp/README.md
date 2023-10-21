@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Budget App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Track your budget and expenses with this app! This app allows you to categorize your expenses and budgets.
 ![Alt text](image.png)
 
 ## Available Scripts
