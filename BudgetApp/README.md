@@ -17,11 +17,11 @@ To use the Budget App, follow these steps:
 
 1. Clone the GitHub repository to your local machine:
     ```
-    git clone https://github.com/EjDadivas/BudgetApp-React-Bootstrap
+   git clone https://github.com/Kritika30032002/ReactCreations.git
     ```
 2. Navigate to the project directory:
     ```
-    cd BudgetApp-React-Bootstrap
+    cd BudgetApp
     ```
 3. Install the required dependencies using npm:
     ```
