@@ -1,6 +1,6 @@
 # React Portfolio Website - Hacktoberfest 2023
 
-![Picture](/ReactCreations/portfolio-website/preview.png)
+![Picture](/preview.png)
 
 This is a simple React portfolio website that can be used as a starting point for your own portfolio. It is easy to customize and deploy, and it is a great way to showcase your skills and experience to potential employers.
 
