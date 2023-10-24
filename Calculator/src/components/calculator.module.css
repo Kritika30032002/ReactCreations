@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image:linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
+    background-image: linear-gradient(to right, rgb(249, 168, 212), rgb(216, 180, 254), rgb(129, 140, 248));
     width: 100%;
 }
 
@@ -13,8 +13,8 @@
     border: 1px solid #d4d4d4;
     border-radius: 10px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    background: rgba(255,255,255,0.6);
-  backdrop-filter: saturate(180%) blur(10px);
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: saturate(180%) blur(10px);
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -28,29 +28,30 @@
     font-weight: 600;
     margin-bottom: 20px;
     padding: 16px 6px;
-     background: rgba(255,255,255,0.2);
-  backdrop-filter: saturate(150%) blur(10px);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: saturate(150%) blur(10px);
     border: 1px solid #d4d4d4;
     border-radius: 6px;
     flex-grow: 1;
     width: 100%;
     color: #333333;
+    overflow-y: scroll;
 }
 
 button {
- text-align: center;
-   gap: 24px;
-   color: #fff;
-   border-radius: 10px;
-   border: none;
-   box-shadow: 2px 2px  5px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    gap: 24px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     transition: ease-in;
     transition-duration: 200ms;
 }
 
 button:hover {
-        transform: scale(1.05);
-    }
+    transform: scale(1.05);
+}
 
 .buttons {
     display: grid;
@@ -63,18 +64,20 @@ button:hover {
 
 
 .operator {
-padding: 20px; 
- background-color:#C084FC ;
- font-size: 20px;
+    padding: 20px;
+    background-color: #C084FC;
+    font-size: 20px;
 }
+
 .number {
-padding: 20px; 
- background-color:#818CF8 ;
-  font-size: 20px;
+    padding: 20px;
+    background-color: #818CF8;
+    font-size: 20px;
 }
+
 .equals {
- padding: 20px; 
- background-color:#F9A8D4 ;
-  font-size: 20px;
- grid-column: span 2;
+    padding: 20px;
+    background-color: #F9A8D4;
+    font-size: 20px;
+    grid-column: span 2;
 }

@@ -45,8 +45,8 @@ const Calculator = () => {
           <button onClick={clear} className={styles.operator}>AC</button>
           <button onClick={deleteEl} className={styles.operator}>DE</button>
 
-          <button id="." className={styles.operator} >.</button>
-          <button id="/" className={styles.operator} >/</button>
+          <button id="." className={styles.operator} onClick={handleClick}>.</button>
+          <button id="/" className={styles.operator} onClick={handleClick}>/</button>
 
           <button id="7" className={styles.number} onClick={handleClick}>7</button>
           <button id="8" className={styles.number} onClick={handleClick}>8</button>
