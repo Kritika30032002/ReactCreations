@@ -75,26 +75,26 @@ export function Quiz() {
         <button className="start--quiz" onClick={handleShowCorrectOptionsClick}>
           Check Answers
         </button>
-        <br/>
+        <br />
         {totalScore !== null && (
           <p
-          style={{
-            color: "black",
-            textAlign: "center",
-            fontSize: "20px",
-            font: "arial"
-          }}
+            style={{
+              color: "black",
+              textAlign: "center",
+              fontSize: "20px",
+              font: "arial"
+            }}
           >You scored {totalScore}/5 correct answers</p>
         )}
-        <br/>
-        <button 
-        style = {{
-          float: "right"
-        }}
-        className="start--quiz" onClick={handleRestartClick}>
+        <br />
+        <button
+          style={{
+            float: "right"
+          }}
+          className="start--quiz" onClick={handleRestartClick}>
           Restart Quiz
         </button>
-        <br/>
+        <br />
       </div>
     );
   }
@@ -124,9 +124,10 @@ function Question({
   updateSelectedOption,
 }) {
   const handleOptionClick = (option) => {
-    if (selectedOption === null) {
+    if (selectedOption === null || selectedOption !==  option) {
       updateSelectedOption(option);
-    } else if (selectedOption === option) {
+    } 
+    else if (selectedOption === option) {
       // Deselect the option if it's already selected
       updateSelectedOption(null);
     }
