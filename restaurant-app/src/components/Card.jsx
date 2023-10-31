@@ -1,12 +1,12 @@
 import React from 'react'
 import '../components-css/Card.css'
 
-const Card = ({title, description, food_img, price}) => {
+const Card = ({title, description, img, price}) => {
     return (
         <>
           <div className='cards'>
             <div style={{height: '55%', borderBottom: '1px solid black'}}>
-              <img src={food_img} alt="" />
+              <img src={img} alt="" />
             </div>
             <div style={{height: '40%',}}>
               <div className='card-description'>
