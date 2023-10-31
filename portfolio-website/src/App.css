@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #2d2d2d;
+  margin: 0;
+  padding: 0;
+ }
+ 
+ .App-header {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  height: 500px;  
+ }
+
+ .background-image {
+  background-image: url('./bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+ .App-header img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+  cursor: pointer;
+ }
+
+ nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #242424;
+  color: #fff;
+}
+ 
+ .section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+ }
+
+ .btn{
+  transition: 0.5s ease-in-out;
+  background-color:rgb(86, 86, 255);
+  color: white;
+  margin: 10px;
+  padding: 16px;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+ }
+
+ .btn:hover{
+  background-color: rgb(0, 0, 0);
+  color: white;
+ }
+ 
+ h2 {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 134);
+ }
+ 
+ ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ li {
+  margin-bottom: 10px;
+ }
+ 
+ .App-footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ }
+
+ /* Scroll Bar CSS */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2d2d2d;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #101010;
+}
