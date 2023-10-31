@@ -10,11 +10,13 @@
 .game {
     text-align: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     background: #fff;
 }
-
+.boardRow{
+    display: flex;
+}
 .gameBoard {
     margin: 20px;
 }
@@ -28,7 +30,11 @@
     width: 84px;
     text-align: center;
     cursor: pointer;
-    margin: 20px
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .square:hover {
