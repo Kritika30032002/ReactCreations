@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+:root {
+    font-size: 14px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    width: 90%;
+
+    flex-wrap: wrap;
+
+    /* border: 1px solid red; */
+    gap: 40px;
+
+    margin: 10px auto;
+
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.flex_jc {
+    justify-content: center;
+}
+
+.flex_ai {
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input,
+select {
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.disable {
+    background-color: rgb(230, 230, 230);
+    border: 1px solid grey;
+
+    pointer-events: none;
+}
+
+.selected {
+    background-color: rgb(253, 223, 223);
+}
+
+/* =================== friend ============== */
+
+.left__container {
+    /* border: 1px solid red; */
+    width: 400px;
+    gap: 10px;
+
+    /* border: 1px solid red; */
+}
+
+.friend__container {
+    /* border: 1px solid yellow; */
+}
+
+.friend {
+    gap: 20px;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.friend:hover {
+    background-color: rgb(253, 223, 223);
+}
+
+.friend__img {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    background-color: rgb(255, 145, 0);
+}
+
+.friend__name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.friend__status {
+    font-size: 1rem;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: rgb(23, 221, 23);
+}
+
+.friend__detail {
+    flex: 1;
+}
+
+.button {
+    font-size: 1rem;
+    padding: 0.3em 0.65em;
+    border-radius: 5px;
+    font-weight: bold;
+
+    border: none;
+    cursor: pointer;
+
+    background-color: rgba(236, 135, 46, 0.927);
+    align-self: flex-end;
+}
+
+/* ================= Add Friend ============= */
+
+.add-friend {
+    background-color: rgb(253, 223, 223);
+    padding: 13px;
+    border-radius: 5px;
+
+    gap: 15px;
+}
+
+.add-friend input {
+    max-width: 140px;
+    /* width: 150px; */
+}
+
+.add-friend__item {
+    justify-content: space-between;
+}
+
+/* ======================= right container ================= */
+
+.right__container {
+    width: 400px;
+    /* border: 1px solid blue; */
+    background-color: rgb(253, 223, 223);
+
+    height: fit-content;
+    border-radius: 5px;
+
+    padding: 30px;
+    gap: 20px;
+}
+
+.right__container-form {
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+.right__container-form div {
+    gap: 14px;
+}
+
+.right__container-form div:nth-of-type(2) {
+    width: 100px;
+    /* border: 1px solid rgb(121, 121, 100); */
+}
+
+.right__container-form button {
+    align-self: stretch;
+}
