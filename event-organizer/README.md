@@ -1,33 +1,44 @@
-# Event Organizer
+# Event Organizer App
 
-Welcome to the Event Organizer repository! As an event organizer, this project is designed to help you manage and organize your events seamlessly.
+Welcome to the Event Organizer App! This React application, styled with Tailwind CSS, is designed to help you organize and manage events seamlessly. Use this app to provide event details, showcase the agenda, and facilitate participant registration.
 
 ## Features
 
-- **Event Management:** Easily create, update, and delete events.
-- **Attendee Registration:** Allow participants to register for your events.
-- **Schedule:** Plan and display event schedules.
-- **Venue Information:** Provide details about the event venue.
-- **Contact Information:** Keep attendees informed with relevant contact details.
-- **Responsive Design:** Access and manage events from various devices.
+- **Event Details:** Record and display essential information about each event.
+- **Participants:** Keep track of participants and their details.
+- **Agenda:** Organize and showcase the agenda for the event.
+- **Tasks:** Manage and assign tasks related to event planning.
 
 ## Getting Started
 
-Follow these steps to set up the event organizer application locally:
+To use the Event Organising App, follow these steps:
 
-### Prerequisites
-
-- Node.js: [Download and Install Node.js](https://nodejs.org/)
-- npm: [Install npm](https://www.npmjs.com/get-npm)
-
-### Installation
-
-1. Clone the repository:
+1. Clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/your-username/event-organizer.git
+   git clone https://github.com/your-username/event-tracker.git
+   cd event-tracker
    ```
 
-### See Live
+2. Install dependencies:
 
-- website: https://gevent.netlify.app/
+   ```bash
+   npm install
+   ```
+
+3. Start the app:
+
+   ```bash
+   npm start
+   ```
+
+   The app should now be up and running in your web browser. You can access it at `http://localhost:3000/`.
+
+## Technologies Used
+
+- React: The front-end framework used to build the application.
+- Tailwind: For responsive and attractive user interface design.
+
+## See Live
+
+- website : https://gevent.netlify/app/

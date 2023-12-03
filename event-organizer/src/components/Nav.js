@@ -41,7 +41,11 @@ export default function Nav(params) {
             >
               About Us
             </a>
-            <a href="services" className="text-white hover:text-green-500">
+            <a
+              href="#"
+              onClick={() => scrollToSection("services")}
+              className="text-white hover:text-green-500"
+            >
               Services
             </a>
             <a
@@ -110,7 +114,11 @@ export default function Nav(params) {
             >
               About Us
             </a>
-            <a href="services" className="text-white hover:text-green-500">
+            <a
+              href="#"
+              onClick={() => scrollToSection("services")}
+              className="text-white hover:text-green-500"
+            >
               Services
             </a>
             <a
