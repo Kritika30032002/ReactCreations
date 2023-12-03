@@ -4,10 +4,12 @@ Welcome to the Event Organizer App! This React application, styled with Tailwind
 
 ## Features
 
-- **Event Details:** Record and display essential information about each event.
-- **Participants:** Keep track of participants and their details.
-- **Agenda:** Organize and showcase the agenda for the event.
-- **Tasks:** Manage and assign tasks related to event planning.
+- **Event Management:** Easily create, update, and delete events.
+- **Attendee Registration:** Allow participants to register for your events.
+- **Schedule:** Plan and display event schedules.
+- **Venue Information:** Provide details about the event venue.
+- **Contact Information:** Keep attendees informed with relevant contact details.
+- **Responsive Design:** Access and manage events from various devices.
 
 ## Getting Started
 
@@ -16,8 +18,8 @@ To use the Event Organising App, follow these steps:
 1. Clone the GitHub repository:
 
    ```bash
-   git clone https://github.com/your-username/event-tracker.git
-   cd event-tracker
+   git clone https://github.com/Kritika30032002/ReactCreations.git
+   cd event-organizer
    ```
 
 2. Install dependencies:
@@ -41,4 +43,4 @@ To use the Event Organising App, follow these steps:
 
 ## See Live
 
-- website : https://gevent.netlify/app/
+- website : https://gevent.netlify.app/
