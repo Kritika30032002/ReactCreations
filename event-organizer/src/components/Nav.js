@@ -2,6 +2,7 @@ import { FaSearch } from "react-icons/fa";
 import "../styles/style.css";
 import { MdMenu, MdClose } from "react-icons/md";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 export default function Nav(params) {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => {
@@ -27,48 +28,48 @@ export default function Nav(params) {
         </div>
         <div className="hidden md:flex space-x-4">
           <div className="space-x-4 flex mt-2">
-            <a
-              href="#"
+            <Link
+              to="/home"
               onClick={() => scrollToSection("home")}
               className="text-white hover:text-green-500"
             >
               Home
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/about-us"
               onClick={() => scrollToSection("about-us")}
               className="text-white hover:text-green-500"
             >
               About Us
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/services"
               onClick={() => scrollToSection("services")}
               className="text-white hover:text-green-500"
             >
               Services
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/portfolio"
               onClick={() => scrollToSection("portfolio")}
               className="text-white hover:text-green-500"
             >
               Portfolio
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/pricing"
               onClick={() => scrollToSection("pricing")}
               className="text-white hover:text-green-500"
             >
               Get Started
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/contact-us"
               onClick={() => scrollToSection("contact-us")}
               className="text-white hover:text-green-500"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
 
           <div className="flex items-center">
@@ -100,48 +101,48 @@ export default function Nav(params) {
             </button>
           </div>
           <div className="flex flex-col items-start space-y-4 p-4">
-            <a
-              href="#"
+            <Link
+              to="/home"
               onClick={() => scrollToSection("home")}
               className="text-white hover:text-green-500"
             >
               Home
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/about-us"
               onClick={() => scrollToSection("about-us")}
               className="text-white hover:text-green-500"
             >
               About Us
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/services"
               onClick={() => scrollToSection("services")}
               className="text-white hover:text-green-500"
             >
               Services
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/portfolio"
               onClick={() => scrollToSection("portfolio")}
               className="text-white hover:text-green-500"
             >
               Portfolio
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/pricing"
               onClick={() => scrollToSection("pricing")}
               className="text-white hover:text-green-500"
             >
               Get Started
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              to="/contact-us"
               onClick={() => scrollToSection("contact-us")}
               className="text-white hover:text-green-500"
             >
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       )}

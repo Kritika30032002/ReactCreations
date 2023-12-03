@@ -13,25 +13,24 @@ Welcome to the Event Organizer App! This React application, styled with Tailwind
 
 ## Getting Started
 
-To use the Event Organising App, follow these steps:
+To use the Event Organizer App, follow these steps:
 
-1. Clone the GitHub repository:
-
-   ```bash
+1. Clone the GitHub repository to your local machine:
+   ```
    git clone https://github.com/Kritika30032002/ReactCreations.git
+   ```
+2. Navigate to the project directory:
+   ```
    cd event-organizer
    ```
-
-2. Install dependencies:
-
-   ```bash
+3. Install the required dependencies using npm:
+   ```
    npm install
    ```
+4. Start the app by running:
 
-3. Start the app:
-
-   ```bash
-   npm start
+   ```
+   npm run start
    ```
 
    The app should now be up and running in your web browser. You can access it at `http://localhost:3000/`.
