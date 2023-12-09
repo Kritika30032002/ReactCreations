@@ -33,7 +33,7 @@ Follow the steps below to install and run this web application on your local mac
     npm install
     ```
 
-4. **Get Your Edamam API Key**
+4. **Get Your OpenWeather API Key**
 
     To use this application, you need to obtain an API key from Edamam. Follow these steps:
 
