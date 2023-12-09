@@ -46,7 +46,7 @@ export const Weather = ({ city }: WeatherProps) => {
         }
     }, [city]);
     return (
-        <Card className="border-0 bg-zinc-900 h-full md:w-1/2">
+        <Card className="border-0 bg-zinc-900 h-full w-full md:w-1/2">
             <CardContent className="flex items-center justify-center h-full w-full">
                 {loading ? (
                     <div className="flex flex-col text-white text-center h-full w-full items-center justify-center">
