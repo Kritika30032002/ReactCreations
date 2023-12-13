@@ -79,3 +79,8 @@
     width:100%;
     color: white;
 }
+@media (max-width: 768px) {
+    .contact-con{
+        flex-direction:column;
+    }
+}
