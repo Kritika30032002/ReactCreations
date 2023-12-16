@@ -1,0 +1,38 @@
+.academics_container{
+    display:flex;
+    margin-top:2rem;
+    align-items:center;
+    flex-direction:column;
+}
+
+.contents{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:2rem;
+    margin-top:6rem;
+}
+
+.contents .branch{
+    height:8rem;
+    width:10rem;
+    background:var(--color-variant);
+    border-radius:1.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:0.09rem solid transparent;
+    transition:var(--transition);
+
+
+}
+
+.contents .branch:hover{
+    background:transparent;
+    border:solid 0.09rem var(--color-primary);
+}
+
+.icon{
+    color:var(--color-primary);
+    margin-bottom:0.6rem;
+}
