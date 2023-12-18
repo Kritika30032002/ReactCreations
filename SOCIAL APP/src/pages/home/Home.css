@@ -1,0 +1,15 @@
+.homeContainer{
+    display: flex;
+}
+
+.feeds{
+    flex:4;
+}
+
+.rightbar{
+    flex:4;
+}
+
+.sidebar{
+    flex:4;
+}
