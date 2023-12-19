@@ -1,0 +1,9 @@
+.yash{
+        width:100vw;
+        height:100vh;
+        color:blue;
+        background-image: url('../annie.jpg');
+        background-size: cover;
+        margin: -16px -122px;
+        padding-left: 371px;
+    }
