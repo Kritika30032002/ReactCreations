@@ -1,0 +1,21 @@
+.header{
+    font-size: 35px;
+}
+
+.header2{
+    font-size: 20px;
+}
+
+.homes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
