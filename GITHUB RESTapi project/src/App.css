@@ -18,4 +18,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin-bottom: 500px; */
+}
+.gagan-div{
+    width: 100%;
+    height: 100vh;
 }
