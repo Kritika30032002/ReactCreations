@@ -1,0 +1,94 @@
+.stand {
+  position: relative;
+}
+
+.standHead {
+  position: absolute;
+  height: 40px;
+  width: 5px;
+  background: black;
+  margin-left: 240px;
+}
+
+.standTop {
+  height: 5px;
+  width: 120px;
+  background: black;
+  margin-left: 120px;
+}
+
+.standMiddle {
+  height: 250px;
+  width: 5px;
+  background: black;
+  margin-left: 120px;
+}
+
+.standBottom {
+  height: 5px;
+  width: 250px;
+  background: black;
+}
+
+.manHead {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
+  border-radius: 50%;
+  top: 40px;
+  left: 218px;
+}
+
+.manBody {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: black;
+  top: 90px;
+  left: 240px;
+}
+
+.manLeftHand {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: black;
+  transform: rotate(60deg);
+  transform-origin: left bottom;
+  top: 60px;
+  left: 240px;
+}
+
+.manRightHand {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: black;
+  transform: rotate(-60deg);
+  transform-origin: right bottom;
+  top: 60px;
+  left: 240px;
+}
+
+.manLeftLeg {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: black;
+  transform: rotate(120deg);
+  transform-origin: left bottom;
+  top: 85px;
+  left: 243px;
+}
+
+.manRightLeg {
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  background: black;
+  transform: rotate(-120deg);
+  transform-origin: right bottom;
+  top: 85px;
+  left: 237px;
+}

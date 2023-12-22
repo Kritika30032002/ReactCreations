@@ -1,0 +1,32 @@
+.keyboardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn {
+  width: 100%;
+  aspect-ratio: 1/1;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: 2px solid black;
+  background: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: black;
+}
+
+.btn.active {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.btn.inactive {
+  opacity: 0.3;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background-color: lightseagreen;
+}
