@@ -1,0 +1,27 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+.Aboutpage{
+
+    background-color: #DAFFFB;
+    height: 100vh;
+
+
+}
+.aboutbut h2{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.box{
+    background-color:rgba(23, 107, 135, 0.60);
+    height: 500px;
+}
