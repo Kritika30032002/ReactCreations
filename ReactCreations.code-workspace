@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ReactCreations",
+			"path": "."
+		},
+		{
+			"name": "crypto-tracker",
+			"path": "../crypto-tracker"
+		}
+	],
+	"settings": {}
+}
