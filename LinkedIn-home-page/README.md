@@ -34,4 +34,4 @@ npm run dev
 http://localhost:3000/
 ```
 
-![alt text](/public/Screenshot%202023-12-01%20102917.png)
+![alt text](public/Screenshot%202023-12-01%20102917.png)
