@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.App h1 {
+  font-size: 75px;
+  font-weight: 900;
+  margin: 30px 0;
+  text-align: center;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 2px #dde9e2;
+  color: #2E8B57;
+}
+
+.App footer {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px 0;
+  text-align: center;
+  color: #000;
+}
+
+.App a {
+  color: #2E8B57;
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: #277047;
+}

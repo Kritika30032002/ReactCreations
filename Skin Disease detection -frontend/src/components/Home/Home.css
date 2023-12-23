@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.HomePage{
+    background-color: #DAFFFB;
+    height: 100vh;
+    cursor: none;
+    overflow: hidden;
+    font-family: 'Urbanist', sans-serif;
+
+}
+
+.HomeBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.imgbottom1{
+    width: 800px;
+    height: 500px;
+    border-radius: 265px;
+    
+}
+
+.bottomtext{
+    width: 40%;
+    font-weight: 900;
+    font-size: 40px;
+    font-weight: lighter;
+    
+}
+.saidby{
+    font-size: 30px;
+}
+
+.virtual
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+    
+}
+
+.consult{
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin: 30px;
+    background-color: #4F709C;
+    color: white;
+    font-weight: 600;
+}
+
+.consult:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    background-color: #64CCC5;
+    background-color: ;
+}
+
+.quote:hover{
+    
+}
+
+
+.layer{
+    width: 100%;
+    /* height: 0; */
+    background: linear-gradient(0deg, #27374D, transparent);
+    border-radius: 20px;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Jost', sans-serif;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.5s;
+    
+}
+
+.layer:hover .layer{
+    height: 100%;
+}
+
+.imgbottom1:hover img{
+    transform: scale(1.1);
+}
+
+
+  
+
+  
+  .Ani {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: rgb(171, 171, 159); */
+  }
+  
+  .title {
+    font-size: 10rem;
+  }
+  
+  .cursor {
+    background-color: #111;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }

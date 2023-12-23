@@ -1,0 +1,40 @@
+.contact_container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:1.5rem;
+}
+.contact_container form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:1.5rem;
+}
+
+form label input{
+background:var(--color-bg);
+border:0.09rem solid var(--color-light);
+width:30rem;
+border-radius:0.3rem;
+margin:1rem;
+padding:0.6rem;
+color:var(--color-primary);
+
+}
+
+form textarea{
+    background:var(--color-bg);
+    border:0.09rem solid var(--color-light);
+    border-radius:0.4rem;
+    width:29rem;
+    padding:1rem;
+    margin-top:2rem;
+    color:var(--color-primary);
+}
+
+form button{
+    font-weight: 500;
+    cursor:pointer;
+    margin-top:1.5rem;
+}

@@ -1,86 +1,74 @@
-.logo{
-    height: 70px;
-    width: 100%;
-    background-color: ghostwhite;
+.navbar {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    padding-top: 4px;
-    padding-bottom: 4px
-}
-
-.logo div{
-    width: 1200px;
+    padding-right:15px;
+  }
+  
+  .navlogo-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     height: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
+    width:35%;
+    padding:10px;
+  }
+  
+  .nav-logo-img {
+    width: 10rem;
+    height: 3rem;
 
-.logo img{
-    height : 100%;
-    width: 190px;
-}
-
-.navbar{
-    width: 100%;
-    padding-top: 1px;
-    box-shadow: 0 0 3px black;
-    border-top: 1px solid black;
-    background-color: transparent;
+  }
+  
+  .nav-link {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height:75px
-}
-.navbar img{
-    position: relative;
-    right: 30px;
-}
-
-.nav-link a{
+    flex-direction:row;
+    gap:70px;
+  }
+  
+  .nav-link a {
     text-decoration: none;
-    color: gray;
-}
-
-.nav-link a:hover{
+    color: #333;
+  }
+  
+  .hamburger-menu {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menu-pic {
+    font-size: 24px;
+  }
+  .nav-link a:hover{
     color: black;
     font-size: 17px;
 }
-
-
-.nav-link{
-    font-size:100%;
-    height: 100%;
-    width: 70%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap:70px;
-    margin-right:5%;
-}
-
-.navlogo-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 30%;
-}
-
-.nav-logo-img{
-    width: 10rem;
-    height: 3rem;
-}
-
-@media only screen and (max-width: 766px) {
+  
+  @media (max-width: 768px) {
     .nav-link {
-      gap: 20px;
+      display:none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      flex-direction: column;
+      background-color: #f8f8f8; 
+      padding:10px;
+      gap:25px;
+    }  
+    .hamburger-menu {
+      display: block;
     }
-    .navbar img{
-        height: 55px;
-        width: 35px
-    }
-
-
-}
+    .nav-logo-img {
+        width: 10rem;
+        height: 3rem;
+        padding-bottom:4px;
+      }
+      .nav-link.open {
+        display: flex;
+      }
+  }
+  
+    
+     
+    
