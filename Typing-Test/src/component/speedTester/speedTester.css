@@ -1,0 +1,52 @@
+
+.speedTester{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 60px;
+}
+.writingContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 60%;
+    flex-wrap: wrap;
+    border: 3px solid greenyellow;
+}
+.inputTxtarea{
+    height: 180px;
+    width:clamp(300px,80%,900px);
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#txtarea{
+    height: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    border: 14px groove grey;
+}
+
+#copytxt-btn{
+    background-color: rgb(130, 175, 235);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+}
+button:hover{
+    cursor: pointer;
+}
+.start_time{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: rgb(120, 158, 45);
+}
