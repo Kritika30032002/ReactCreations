@@ -1,0 +1,35 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+input[type=text]{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.addons{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+#len{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+
+input[type=range]{
+   margin-left: 10px;
+}
+
+input{
+  cursor: pointer;
+}
