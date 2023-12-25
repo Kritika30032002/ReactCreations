@@ -22,7 +22,7 @@ Javascript, Reactjs, React Router, TailwindCSS
 Clone the project
 
 ```bash
-  git clone https://github.com/your-username/To-do-webapp.git
+  https://github.com/Kritika30032002/ReactCreations.git
 ```
 
 Go to the project directory
