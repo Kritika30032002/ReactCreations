@@ -17,13 +17,13 @@ Javascript, Reactjs, TailwindCSS
 Clone the project
 
 ```bash
-  git clone https://github.com/your-username/Apps-Info-Webapp.git
+  https://github.com/Kritika30032002/ReactCreations.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd Apps-Info-Webapp
+  cd Apps Info Webapp
 ```
 
 Install dependencies
