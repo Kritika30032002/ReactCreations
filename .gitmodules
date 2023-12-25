@@ -1,0 +1,3 @@
+[submodule "crypto-tracker"]
+	path = crypto-tracker
+	url = https://github.com/aindree-2005/crypto-tracker
