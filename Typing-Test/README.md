@@ -16,11 +16,11 @@ Welcome to the Typing Speed Test Web App! This application is built using React.
 
 ## Technologies Used
 
-- **React.js**
+- **React.js**: A JavaScript library for building user interfaces, providing a fast and interactive experience.
 
-- **React Router DOM**
+- **React Router DOM**: Enables navigation and routing in a React application, ensuring a smooth and dynamic user experience.
 
-- **Testing Library**
+- **Testing Library**: Used for testing React components, ensuring the reliability and correctness of the application.
 
 ## Getting Started
 
