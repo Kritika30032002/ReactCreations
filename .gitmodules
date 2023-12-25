@@ -1,3 +1,6 @@
 [submodule "crypto-tracker"]
 	path = crypto-tracker
 	url = https://github.com/aindree-2005/crypto-tracker
+[submodule "spotify"]
+	path = spotify
+	url = https://github.com/aindree-2005/spotify
