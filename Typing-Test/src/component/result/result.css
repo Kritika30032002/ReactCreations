@@ -1,0 +1,14 @@
+#retry-btn{
+    background-color: rgb(150, 228, 135);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 60px;
+    margin-top: 20px;
+    padding:10px;
+    transition:all 500ms ;
+}
+#retry-btn:hover{
+    background:rgb(150, 180, 135);
+}
