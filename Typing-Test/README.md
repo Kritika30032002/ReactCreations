@@ -26,7 +26,7 @@ Welcome to the Typing Speed Test Web App! This application is built using React.
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/typing-speed-test-app.git
+   git clone https://github.com/Kritika30032002/ReactCreations.git
    ```
 
 2. **Navigate to the Project Directory**:
