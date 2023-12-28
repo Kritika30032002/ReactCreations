@@ -1,6 +1,6 @@
 ## Discord Clone
 
-Discord Clone is a real-time Discord clone built using the MERN stack (MongoDB, Express, React, and Node.js), WebRTC, and Socket.IO. It offers features such as authentication using JWT, creating separate voice rooms and chatting in real-time with other users, video calling, voice calling, screensharing using WebRTC, audio-only mode, friend-adding functionality, and an easy-to-use UI.
+Discord Clone is a real-time Discord clone built using the MERN stack (MongoDB, Express, React, and Node.js), WebRTC, and Socket.IO. It offers features such as authentication using JWT, creating separate voice rooms and chatting in real-time with other users, video calling, voice calling, screensharing using WebRTC, audio-only mode, friend-adding functionality, and good UI.
 
 ## Features
 
