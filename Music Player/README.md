@@ -28,7 +28,7 @@ Make sure you have the following installed on your machine:
 2. Navigate to the project directory:
 
     ```bash
-    cd Music\Player
+    cd Music Player
     ```
 
 3. Install both server and client dependencies using Yarn:
