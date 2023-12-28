@@ -1,0 +1,30 @@
+.contactContainer {
+    display: flex;
+}
+
+.contactIcon {
+    padding: 15px;
+}
+
+.contactIcon span {
+    /* padding-top: 30px; */
+    padding-right: 20px;
+}
+
+.feeds{
+    flex:4;
+}
+
+.rightbar{
+    flex:4;
+}
+
+.sidebar{
+    flex:4;
+}
+
+.contact {
+    flex:8;
+    margin: 50px;
+    font-size: larger;
+}

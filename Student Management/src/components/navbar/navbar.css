@@ -1,0 +1,34 @@
+.navbar_container{
+position:fixed;
+bottom:2rem;
+width:max-content;
+background:rgba(0,0,0,0.3);
+left:50%;
+border-radius:3rem;
+backdrop-filter:blur(14px);
+display:flex;
+transform:translate(-50%);
+gap:0.8rem;
+z-index:2;
+padding:0.7rem 1.7rem;
+
+}
+
+.navbar_container a{
+    background: var(--color-primary);
+    border-radius:50%;
+    display:flex;
+    font-size:1.1rem;
+    background:transparent;
+    padding:0.9rem;
+    color:var(--color-primary);
+
+}
+
+.navbar_container a:hover{
+    background:rgba(0,0,0,0.3);
+}
+
+.navbar_container .active{
+    background:rgba(0,0,0,0.3);
+}
