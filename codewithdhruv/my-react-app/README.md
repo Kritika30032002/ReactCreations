@@ -1,13 +1,17 @@
-# Getting Started with Create React App
+# codewithdhruv
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to codewithdhruv, a web application to solve dsa problem
 
-## Available Scripts
+## Project Structure
+- `backend/`: Contains server-side code for handling API requests, database connections, or other server-side logic.
+- `public/`: Holds static assets accessible from the web application, such as HTML files, images, or other resources.
+- `src/`: Main folder for React-related work, including components, styles, and JavaScript files.
 
-In the project directory, you can run:
+To install project dependencies, run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+```bash
+npm install
+cd src/
+npm start
+cd backend/
+npm start
