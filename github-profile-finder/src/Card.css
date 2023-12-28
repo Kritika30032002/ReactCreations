@@ -1,0 +1,40 @@
+/* UserCard.css */
+
+.user {
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  padding: 20px; /* Increased padding for more spacing */
+  margin: 0 auto; /* Center horizontally */
+  width: 300px;
+  text-align: left;
+}
+
+.avatar {
+  width: 120px; /* Slightly increased avatar size */
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px; /* Increased margin for better spacing */
+}
+
+.name {
+  font-size: 1.6rem; /* Larger font size for the name */
+  font-weight: bold;
+  margin-bottom: 12px; /* Increased margin for better spacing */
+}
+
+.name a {
+  text-decoration: none;
+  color: #4a90e2; /* Nice blue color */
+}
+
+.created_at,
+.bio,
+.location,
+.followers,
+.following,
+.public_repos {
+  margin-bottom: 12px; /* Increased margin for better spacing */
+  color: #555; /* Darker text color */
+}
