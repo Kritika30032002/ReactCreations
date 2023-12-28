@@ -30,7 +30,19 @@ To run this project, you will need Node.js installed on your system.
 
 #### Installation
 
-1. Install NPM packages
+1. Run in terminal to clone the repository into your directory
+
+```
+ git clone https://github.com/Kritika30032002/ReactCreations.git
+```
+
+2. Cd to project folder
+
+```
+cd Discord_Clone
+```
+
+3. Install NPM packages
 
    ```
    npm install
@@ -38,7 +50,7 @@ To run this project, you will need Node.js installed on your system.
 
    This command will install all the necessary NPM packages for both the server-side and client-side applications.
 
-2. Add the following environment variables in the `.env` file
+4. Add the following environment variables in the `.env` file
 
    ```
    MONGO_URI= your mongo uri here
@@ -47,7 +59,7 @@ To run this project, you will need Node.js installed on your system.
 
    Replace `your mongo uri here` with the MongoDB connection string and `your token key here` with a secret key used for generating JWT tokens.
 
-3. Start the server side
+5. Start the server side
 
    ```
    cd discord-backend
@@ -56,7 +68,7 @@ To run this project, you will need Node.js installed on your system.
 
    This command will start the server-side application on port 3001.
 
-4. Start the client side
+6. Start the client side
 
    ```
    cd discord-frontend
