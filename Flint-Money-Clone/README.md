@@ -36,7 +36,7 @@ To get started with the Flint Money Clone, follow these steps:
 2. Navigate to the project directory:
 
    ```bash
-   cd flint-money-clone
+   cd Flint-Money-Clone
    ```
 
 3. Install dependencies:
