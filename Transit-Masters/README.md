@@ -25,7 +25,8 @@ Here're some of the project's best features:
 <p>1. Clone the repository</p>
 
 ```
-git clone https://github.com/PSS2134/Transit-Masters.git
+git clone https://github.com/Kritika30032002/ReactCreations.git
+cd Transit-Masters
 ```
 
 <p>2. Install the dependecies for Client and Server</p>
