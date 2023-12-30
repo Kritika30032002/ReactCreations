@@ -13,7 +13,7 @@ git clone https://github.com/Kritika30032002/ReactCreations.git
 2. cd to project folder
 
 ```
-cd restaurant-app
+cd github-profile-finder
 ```
 
 3. Run "npm install".
@@ -31,7 +31,7 @@ npm run dev
 5. Open it in browser.
 
 ```
-http://localhost:3000/
+http://localhost:5173/
 ```
 
 ![alt text](public/Card.png)
