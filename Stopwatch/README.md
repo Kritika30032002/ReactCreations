@@ -28,3 +28,7 @@ To use the App, follow these steps:
    
 
    The app should now be up and running in your web browser. You can access it at http://localhost:3000/.
+
+   ## Demo
+
+   ![](public/stopwatch.gif)
