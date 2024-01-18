@@ -3,18 +3,18 @@
 A text editor website with voice commands and other features.
 
 
-## Introduction
+## Introduction:
 
 This project is a text editor website built using React. It incorporates voice commands for various operations, making it a convenient tool for users with different needs. The project was developed as part of the IWOC 2.0 contribution.
 
-## Features
+## Features:
 
 - Text conversion to uppercase and lowercase using voice commands
 - Clearing, copying, and reading text through voice commands
 - Removing extra spaces from the text
 - Dark mode for enhanced user experience
 
-## Demo
+## Demo:
 
 
 https://github.com/Bayyana-kiran/ReactCreations/assets/99533113/c0a0c2d1-c29b-444e-a582-45ecd7e07b32
@@ -25,7 +25,7 @@ https://github.com/Bayyana-kiran/ReactCreations/assets/99533113/7e46a7b8-2a51-40
 
 
 
-## Getting Started
+## Getting Started:
 
 1. **Clone the repository:**
 
