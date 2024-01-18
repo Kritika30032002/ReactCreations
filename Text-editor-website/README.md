@@ -61,7 +61,8 @@ The application will be available at **http://localhost:3000.**
 -"Read Text" or "Read": Reads the text aloud.
 -"Remove Extra Spaces" or "Extra Spaces": Removes extra spaces from the text.
 
-## Contributor: https://github.com/Bayyana-kiran
+## Contributor:  
+https://github.com/Bayyana-kiran
 
 
     
