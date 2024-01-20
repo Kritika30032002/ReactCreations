@@ -125,35 +125,7 @@ class DrumMachine extends React.Component {
             break;}
 
       }
-      console.log('pad ' + a + ' pressed');
       const updatedPad = [...this.state.pad];
-      if (a.keyCode === 81) {
-        console.log('you pressed "q"');
-      }
-      if (a.keyCode === 87) {
-        console.log('you pressed "w"');
-      }
-      if (a.keyCode === 69) {
-        console.log('you pressed "e"');
-      }
-      if (a.keyCode === 65) {
-        console.log('you pressed "a"');
-      }
-      if (a.keyCode === 83) {
-        console.log('you pressed "s"');
-      }
-      if (a.keyCode === 68) {
-        console.log('you pressed "d"');
-      }
-      if (a.keyCode === 90) {
-        console.log('you pressed "z"');
-      }
-      if (a.keyCode === 88) {
-        console.log('you pressed "x"');
-      }
-      if (a.keyCode === 67) {
-        console.log('you pressed "c"');
-      }
       if (a === 0 || a.keyCode === 81) {
         if (this.state.bank1 === 'https://i.postimg.cc/CM61d63t/Bank-1-Button-On.png') {
           const sound = this.state.sounds1[0];
@@ -377,7 +349,6 @@ class DrumMachine extends React.Component {
     }
   }
   padRelease(a) {
-    console.log('pad ' + a + ' released');
     this.setState({
       pad: Array.from({ length: 9 }, () => 'https://i.postimg.cc/pdwwm3Gt/Pad-Off.png') });
 
