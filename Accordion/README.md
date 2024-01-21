@@ -1,4 +1,4 @@
-# Your Accordion Component Name
+# Accordion 
 
 A flexible and easy-to-use React accordion component for creating collapsible sections.
 
