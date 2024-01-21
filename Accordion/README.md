@@ -19,6 +19,6 @@ A flexible and easy-to-use React accordion component for creating collapsible se
 You can install the accordion component via npm:
 
 ```bash
-npm install your-accordion-component
+npm install Accordion
 
 ```
