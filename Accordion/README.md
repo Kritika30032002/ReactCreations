@@ -2,6 +2,11 @@
 
 A flexible and easy-to-use React accordion component for creating collapsible sections.
 
+
+## Tech Stack
+
+Javascript, Reactjs, html
+
 ## Demo
 
 
@@ -14,11 +19,32 @@ A flexible and easy-to-use React accordion component for creating collapsible se
 - Supports keyboard navigation.
 - Responsive design for mobile and desktop.
 
-## Installation
+## Run Locally
 
 You can install the accordion component via npm:
 
 ```bash
-npm install Accordion
-
+  git clone https://github.com/Kritika30032002/ReactCreations.git
 ```
+
+Go to the project directory
+
+```bash
+  cd Accordion
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+## Contributing
+
+We welcome contributions! Please follow our [contribution guidelines](CONTRIBUTING.md) to contribute to the project.
