@@ -1,37 +1,63 @@
-# SuperHero Slayer
+# NFT Game
+
+Welcome to the NFT Game, a project under the International Women of Code (IWOC) organization. This decentralized NFT game allows players to connect their wallets, select unique NFT characters, and battle against formidable bosses to protect the Heroverse.
 
 ## Introduction
 
-SuperHero Slayer is a decentralized application (dApp) built on the Ethereum blockchain. It is a game where players can collect and battle superhero NFTs. The game is built using React, ethers.js, and the MyEpicNFT smart contract.
+This project is a part of the International Women of Code organization, aiming to create an inclusive and collaborative space for women in technology. The NFT Game provides an immersive gaming experience with decentralized ownership of in-game assets and contributing under IWOC 2.0.
+
+## Features
+
+- Connect your wallet to access unique NFT characters.
+- Choose your character from a diverse set of NFTs.
+- Battle against powerful bosses and protect the Heroverse.
+- Track character and boss health in real-time.
+- Simulated gameplay for testing without actual blockchain interactions.
 
 ## Getting Started
 
-To play SuperHero Slayer, you will need to have a MetaMask wallet installed and some ETH in your wallet. You can also use a test network like Rinkeby to play the game for free.
+### Prerequisites
 
-Once you have a MetaMask wallet, you can connect it to the game by clicking the "Connect Wallet" button. Once you are connected, you can start playing the game!
+- Node.js and npm installed
+- MetaMask extension for your browser
 
-## Metamask
+### Installation
 
-intially, dowmload metamask and connect through the extension. After the connect it respective test network to continue the Game.
+1. Clone the repository:
 
-## Gameplay
+   ```bash
+   git clone https://github.com/Kritika30032002/ReactCreations/nft-game.git
+   ```
+Install dependencies:
+      ```bash
+      cd nft-game
+      npm install
+      ```
+2. Start the development server:
 
-The objective of the game is to collect and battle superhero NFTs. You can collect NFTs by purchasing them from the marketplace or by winning battles. To battle, simply select your superhero NFT and click the "Battle" button. You will then be matched with another player and the battle will begin.
+      ```bash
+      npm start
+      ```
 
-Battles are turn-based and each player takes turns attacking the other player's superhero NFT. The first player to defeat the other player's superhero NFT wins the battle and earns a reward.
+Open your browser and navigate to http://localhost:3000 to play the game.
 
-## Rewards
+### Demo Video:
 
-Players can earn rewards by winning battles. Rewards include ETH, experience points (XP), and new superhero NFTs. XP can be used to level up your superhero NFTs, which makes them stronger in battle.
+https://github.com/Bayyana-kiran/ReactCreations/assets/99533113/f99f628c-6e4b-4803-9863-cb8fa2aa7664
 
-## Marketplace
 
-The marketplace is where players can buy and sell superhero NFTs. NFTs are sold for a fixed price or through an auction. Players can also list their own NFTs for sale.
 
-## Smart Contract
+### Gameplay
+ - Connect your wallet using MetaMask.
+ - Select a unique NFT character.
+ - Battle against powerful bosses by clicking the "Attack" button.
+ - Monitor the health of your character and the boss.
+ - Enjoy the immersive NFT gaming experience!
 
-The MyEpicNFT smart contract is responsible for managing the game's NFTs. The smart contract keeps track of the ownership of NFTs, as well as their attributes and abilities. The smart contract also handles the battles and rewards.
 
-## Conclusion
+### Dependencies
+ - React
+ - ethers.js
+ - Web3.js
 
-SuperHero Slayer is a fun and engaging game that combines the best of blockchain technology and gaming. The game is still in development, but it has a lot of potential. With its unique gameplay and rewards system, SuperHero Slayer is sure to be a hit with gamers of all ages.
+### Contributor: https://github.com/Bayyana-kiran
