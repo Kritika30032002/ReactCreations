@@ -55,11 +55,6 @@ Building an Instagram web app clone using MERN Stack ( MongoDB , Express.js , Re
 
 # Todo List :
 
-UI :
-
--    [x] Use MaterialUI-React
--    [ ] Continue improving the UI ( will never be done ^\_\_^ )
-
 Features :
 
 -    [x] Explore posts
@@ -80,11 +75,6 @@ Features :
 -    [ ] Story feature
 -    [ ] IGTV
 
-Tests & Performance :
-
--    [ ] Write UI tests
--    [ ] Express routes testing
--    [ ] Performance optimization (Code Splitting, Image Lazyload, etc.)
 
 General :
 
@@ -93,14 +83,5 @@ General :
 -    [x] JSDoc & comments ( still have some more work to do )
 -    [ ] Upgrade packages
 
-# Contribute :
-
-Show your support by 🌟 the project !!
-
-==== > Feel free to contribute <====
-
-# Image Copyright Claims :
-
-Many images used in the project belong to their respective creators/authors. No claim by me & those who use this project.
 
 **Thanks for reading**
