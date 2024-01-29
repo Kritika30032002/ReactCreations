@@ -1,5 +1,20 @@
 # Django & React Notes App
 
+## Video Demo
+
+[![Video Demo](https://img.youtube.com/vi/FUriByLIwHg/0.jpg)](https://youtu.be/FUriByLIwHg)
+
+## Tech Stack
+
+- React
+- HTML
+- CSS
+- JavaScript
+- Python
+- Django
+- PostgreSQL
+- Docker
+
 ## Cloning the Repository
 
 Clone the repository using the command below:
