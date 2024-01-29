@@ -24,5 +24,10 @@ body:
         - label: "I follow [Contributing Guidelines](https://github.com/Kritika30032002/ReactCreations/blob/main/contribution.md) of this project."
           required: true
 
-        - label: "I am a IWOC'24 contributor."
-          required: false
+        - type: question
+           id: specific-program
+           attributes:
+            label: "Do you contribute under a specific program?"
+            description: "If yes, please mention the program. If not, you can skip this question."
+           validations:
+            required: false
