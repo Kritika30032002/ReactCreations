@@ -20,13 +20,13 @@
 Clone the repository using the command below:
 
 ```bash
-git clone https://github.com/praptisharma28/TODO_DjangoReact
+git clone https://github.com/Kritika30032002/ReactCreations.git
 ```
 
 Move into the directory where we have the project files:
 
 ```bash
-cd TODO_DjangoReact\Django-React-NotesApp>
+cd ReactCreations\TODO_DjangoReact\Django-React-NotesApp>
 ```
 
 Create a virtual environment:
