@@ -8,6 +8,12 @@ Building an Instagram web app clone using MERN Stack ( MongoDB , Express.js , Re
 
 <img src="https://github.com/TheLordA/Instagram-Web-App-MERN-Stack-Clone/blob/master/Demo/HomePageDemo.PNG" alt="Home Page Demo" width="800">
 
+# Preview Video :
+
+
+https://github.com/hemant933/ReactCreations/assets/104961126/6196feca-23c3-4c7d-b870-e1d49f4e00ea
+
+
 # Quick links :
 
 1. [Usage](#usage)
@@ -22,6 +28,9 @@ Building an Instagram web app clone using MERN Stack ( MongoDB , Express.js , Re
 2. First install all dependencies:
 
      ```bash
+     #change directory to client
+     cd client
+     
      # with npm
      npm install
 
@@ -46,6 +55,9 @@ Building an Instagram web app clone using MERN Stack ( MongoDB , Express.js , Re
 
 4. Start the server
      ```javascript
+     #change directory to server
+     cd server
+     
      npm run dev
      ```
 5. Now run the app
