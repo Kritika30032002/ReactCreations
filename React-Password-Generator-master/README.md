@@ -1,15 +1,46 @@
 # React-Password-Generator
-This is React app that generates passwords based on users requirements
 
-<a href="https://ibb.co/7RQm36r"><img src="https://i.ibb.co/8dbZySP/Annotation-2020-08-04-150736.png" alt="Annotation-2020-08-04-150736" border="0" /></a>
+## Video Demo
 
-## Technologies used
-* React JS
-* Parcel-bundler
-* Base UI 
+[![Video Demo](https://www.youtube.com/watch?v=WEU9jhG0hSE/0.jpg)](https://www.youtube.com/watch?v=WEU9jhG0hSE)
+
+## Tech Stack
+
+- React
+- HTML
+- CSS
+- JavaScript
+- Parcel-bundler
+- Base UI 
+
+## Cloning the Repository
+
+Clone the repository using the command below:
+
+```bash
+git clone https://github.com/Kritika30032002/ReactCreations.git
+```
+
+Move into the directory where we have the project files:
+
+```bash
+cd ReactCreations\React-Password-Generator>
+```
 
 ## How to use?
-* Clone the Repo
-* npm install
-* npm dev (development server)
-* npm build (output in dist folder)
+
+* Install dependencies
+```bash
+npm install
+```
+
+* Start development server
+```bash
+npm run dev
+```
+
+* Build for production (output in dist folder)
+```bash
+npm run build
+```
+⚠ Then, the development server will be started at http://127.0.0.1:5173/
