@@ -38,20 +38,16 @@ https://github.com/hemant933/ReactCreations/assets/104961126/6196feca-23c3-4c7d-
      yarn
      ```
 
-3. Create a `config/config.js` file and insert the following code it will contains all code variables. Replace values with yours !!!
+3. Create a `config/config.j` file and insert the following code it will contains all code variables. Replace values with yours !!!
 
     ```javascript
-    PORT=YOUR_PORT
-    SESSION_SECRET_LETTER="anything-secret"
-    MYSQL_HOST="host"
-    MYSQL_USER="user"
-    MYSQL_PASSWORD="password"
-    MYSQL_DATABASE="db"
-    MAIL="your-email-for-sending email-verification-link"
-    MAIL_PASSWORD="password-for-email"
-    GOOGLE_GEOLOCATION_KEY='google-geolocation-key'
-    ADMIN_PASSWORD='password-for-admin'
-    ```
+    DB_NAME=<DATABASE_NAME>
+    DB_USER=<DATABASE_USER>
+    DB_PASSWORD=<DATABASE_PASSWORD>
+    DB_HOST=<DATABASE_HOST>
+    DB_PORT=<DATABASE_PORT>
+    CLOUDINARY_URL=<CLOUDINARY_URL>
+    SECRET_KEY=<YOUR_SECRET_KEY>```
 
 4. Start the server
      ```javascript
