@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+      - uses: ReactCreations/gh-action-community/src/welcome@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: 'Congratulations, @${{ github.actor }}! 🎉 Thank you for creating your issue for ReactCreations project. Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work! Should you have any queries or require guidance, do not hesitate to ask.'
