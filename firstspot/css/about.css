@@ -1,0 +1,191 @@
+/*
+about us styles
+*/
+
+.aboutBody{
+    background-color: #faebd7;
+    
+}
+
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+  
+.header .appTitle {
+    font-family: 'Glass Antiqua', cursive;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.header .tagline {
+    font-size: 1.6rem;
+    font-family: 'Comforter', cursive;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #B1D4E0;
+}
+
+.footer div:not(:first-child) {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+}
+
+.footer h3 {
+    padding: 0%;
+    margin: 0%;
+    color: #494949;
+}
+
+.footer p {
+    padding: 0%;
+    margin: 0%;
+    color: #494949;
+}
+
+.footer .first_footer {
+    -ms-grid-column-align: start;
+        justify-self: start;
+    margin-left: 3%;
+    max-width: 30%;
+    margin-bottom: 3%;
+}
+
+.aboutus h2{
+    margin-top: 3%;
+    margin-left: 7%;
+  }
+  
+.aboutus .about_compartment {
+    font-size: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+  
+.aboutus .about_compartment p {
+    margin-left: 7%;
+    max-width: 60%;
+}
+  
+.aboutus .about_compartment img {
+    height: 400px;
+    margin-top: -40px;
+    margin-left: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+  
+.aboutus h2::after {
+    content: '';
+    background: #fab703;
+    display: block;
+    height: 3px;
+    width: 150px;
+    margin: 20px -1px;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 200px;
+    max-height: 250px;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: #B1D4E0;
+}
+
+  /* Animation */
+.parallax > use {
+    -webkit-animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+            animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+    -webkit-animation-delay: -2s;
+            animation-delay: -2s;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+    -webkit-animation-delay: -3s;
+            animation-delay: -3s;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+    -webkit-animation-delay: -4s;
+            animation-delay: -4s;
+    -webkit-animation-duration: 13s;
+            animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+    -webkit-animation-delay: -5s;
+            animation-delay: -5s;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+}
+
+@-webkit-keyframes move-forever {
+    0% {
+      -webkit-transform: translate3d(-90px, 0, 0);
+              transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(85px, 0, 0);
+              transform: translate3d(85px, 0, 0);
+    }
+}
+
+@keyframes move-forever {
+    0% {
+      -webkit-transform: translate3d(-90px, 0, 0);
+              transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(85px, 0, 0);
+              transform: translate3d(85px, 0, 0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .waves {
+      height: 40px;
+      min-height: 40px;
+    }
+    .content {
+      height: 30vh;
+    }
+    h1 {
+      font-size: 24px;
+    }
+}
+
+.waveNFoot{
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="createRoute.css" rel="stylesheet" />
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" /> -->
+    <!-- <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script> -->
+    <script defer src="mapDisplay.js"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <title>Firstspot | Explore</title>
+</head>
+
+<body>
+
+  <header class="section page-header">
+    <!-- RD Navbar-->
+
+
+
+    <div class="rd-navbar-wrap" style="height: 59.1875px;">
+      <nav class="rd-navbar rd-navbar-corporate rd-navbar-original rd-navbar-static" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="106px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-collapse-toggle rd-navbar-fixed-element-1 toggle-original" data-rd-navbar-toggle=".rd-navbar-collapse">
+              <span></span>
+          </div>
+          <div class="rd-navbar-aside-outer"></div>
+          <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                  <div class="rd-navbar-nav-wrap">
+   
+                      <!-- <div class="dropdown">
+                          <button id="user" class="userlink btn-primary" type="button" data-toggle="dropdown">Create Account</button>
+                          <ul class="dropdown-menu">
+                              <li><a href="../login/login.html">login/signup as tourist</a></li>
+                              <li><a href="../signup/guidelogin.html">login/signup as tourist guide</a></li>
+                          </ul>
+                      </div>
+           
+                      <li class="rd-nav-item">
+                          <a id="signOut" class="signoutlink btn-success" href="./LoginOverView/index.html">Login</a>
+                      </li> -->
+                      <!-- RD Navbar Nav -->
+                      <ul class="rd-navbar-nav">
+
+                          <li class="rd-nav-item ">
+                              <a class="rd-nav-link" href="index.html">Home</a>
+                          </li>
+                          <li class="rd-nav-item active">
+                              <a class="rd-nav-link" href="https://stirring-tartufo-4f55fa.netlify.app/" style="cursor: pointer;">Explore</a>
+                          </li>
+                          <li class="rd-nav-item">
+                              <a class="rd-nav-link" href="../Profile/profile.html">Guide</a>
+                          </li>
+                          <li class="rd-nav-item">
+                            <a class="rd-nav-link" href="pages/blogs/blog.html">Blogs</a>
+                        </li>
+
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </nav>
+      <h3 id="hh"></h3>
+  </div>
+    <!-- /////////////////////////////////////////////////////////////// -->
+
+    <!-- ////////////////////////////////////////////////////////////// -->
+</header>
+
+    <!-- ACTUAL BODY -->
+    
+
+    <!-- footer -->
+    <footer class="section footer-corporate context-dark">
+        <div class="footer-corporate-inset">
+          <div class="container">
+            <div class="row row-40 justify-content-lg-between">
+              <div class="col-sm-6 col-md-12 col-lg-3 col-xl-4">
+                <div class="oh-desktop">
+                  <div class="wow slideInRight" data-wow-delay="0s">
+                    <h6 class="text-spacing-100 text-uppercase">Contact us</h6>
+                    <ul class="footer-contacts d-inline-block d-sm-block">
+                      <li>
+                        <div class="unit">
+                          <div class="unit-left">
+                            <span class="icon fa fa-phone"></span>
+                    </div>
+                    <div class="unit-body">
+                        <a class="link-phone" href="tel:#">+91 7397963988</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit">
+                          <div class="unit-left">
+                            <span class="icon fa fa-envelope"></span>
+                          </div>
+                          <div class="unit-body">
+                            <a class="link-aemail" href="mailto:#"
+                              >firstspotxofficial@gmail.com</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="unit">
+                          <div class="unit-left">
+                            <span class="icon fa fa-location-arrow"></span>
+                          </div>
+                          <div class="unit-body">
+                            <a class="link-location" href="#"
+                              >VIT Bhopal, kothrikalan, Bhopal-Indore Highway.</a
+                            >
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-5 col-lg-3 col-xl-4">
+                <div class="oh-desktop"></div>
+              </div>
+              <div class="col-sm-11 col-md-7 col-lg-5 col-xl-4">
+                <div class="oh-desktop">
+                  <div class="wow slideInLeft" data-wow-delay="0s">
+                    <h6 class="text-spacing-100 text-uppercase">Quick links</h6>
+                    <ul
+                      class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2"
+                    >
+                      <li><a href="about.html">About us</a></li>
+                        <li><a href="./Filter/filter.html">Our Tours</a></li>
+                        <li><a href="#ourTeam">Our Team</a></li>
+                        
+                        <li><a href="#">Blog</a></li>
+                        </ul>
+                        <div class="group-md group-middle justify-content-sm-start">
+                            <a class="button button-lg button-primary button-ujarak" href="./contact/contact.html">Get in touch</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="./createRoute.js"></script>
+
+</body>
+
+</html>

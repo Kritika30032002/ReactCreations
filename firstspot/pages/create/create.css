@@ -1,0 +1,17 @@
+/* ////////////////////////jayesh new work css/////////////////// */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.test {
+    background: black;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////// */

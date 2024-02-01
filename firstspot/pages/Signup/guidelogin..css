@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #01b3a7 !important;
+    background-image: url(/images/benimdorm.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.mb-5{
+    background-color: rgba(255, 255, 255, 0.805);
+    padding: 4%;
+    width: 30vw;
+    height: 65vh;
+}
+h3{
+    text-align: center;
+    /* font-family: "Montserrat", sans-serif, Arial, sans-serif;
+     */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    
+}
+.form-control{
+    border-color: black !important;
+    height: 6vh !important;
+}
+.w-100{
+    height: 6vh !important;
+}
+.py-1{
+    height: 6vh !important;
+    /* background-color: #01b3a7 !important; */
+    background-color: rgb(22, 46, 68) !important;
+    text-align: center !important;
+}
+.mb-3{
+    border-radius: 0% !important;
+    border-width: 0.1rem !important;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
+    font-weight: 500;
+}
+.btn{
+    font-weight: bolder !important;
+}

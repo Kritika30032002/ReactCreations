@@ -1,0 +1,80 @@
+
+
+#tbody{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.1%;
+}
+
+#tbody .cardGuide {
+    text-align: center;
+    flex: 0 0 180mm;
+    margin-left: 4rem;
+    background-color: #ecd4d4;
+    min-width: 180mm;
+    margin-top: 1em;
+    margin-bottom: 10mm;
+    border-radius: 25px;
+    box-shadow: 10px 25px 30px rgb(99, 96, 96);
+    max-height: 50mm;
+}
+
+#tbody .image-containerGuide {
+    text-align: left;
+}
+
+#tbody .image-containerGuide {
+    text-align: center;
+    height: 20px;
+}
+
+#tbody .img-containerGuide {
+    text-align: center;
+    display: inline-block;
+}
+
+#tbody .img-containerGuide img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+    border-radius: 75%;
+    margin-bottom: 100px;
+
+}
+
+#tbody .containerGuide {
+    padding-right: 1em;
+    color: #110f29;
+    text-align: center;
+    display: inline-block;
+    margin-left: 22px;
+    margin-bottom: 27px;
+}
+
+#tbody .containerGuide h5 {
+    display: flex;
+    margin-top: 18px;
+    font-size: 33px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    /* img {
+        max-width: 100%;
+        object-fit: contain;
+        height: 10em;
+    } */
+    .cardGuide {
+        max-width: 10em;
+        margin-top: 1em;
+    }
+    #names {
+        grid-template-columns: auto auto;
+        grid-column-gap: 1em;
+    }
+}

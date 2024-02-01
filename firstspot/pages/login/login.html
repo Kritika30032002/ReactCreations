@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Login and Registration Form in HTML | CodingNepal</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link rel="stylesheet" href="../login/login.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-image: url(/images/bg-login.jpg);
+        }
+    </style>
+</head>
+
+
+  <body>
+    <!-- ///////////////////////////jayesh new work/////////////////////////// -->
+
+    <div class="mb-5">
+
+      <h3 class="mb-3">Tourist Login</h3>
+      <input
+        type="text"
+        placeholder="Username"
+        id="userInp"
+        class="form-control mb-3"
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        id="passInp"
+        class="form-control mb-3"
+      />
+      <div class="custom-control custom-switch mb-3">
+        <input
+          type="checkbox"
+          class="custom-control-input"
+          id="customSwitch1"
+        />
+        <label class="custom-control-label" for="customSwitch1"
+          >Keep me logged in</label
+        >
+      </div>
+      <button
+        type="text"
+        id="sub_btn"
+        class="btn w-100 btn-outline-primary mb-3"
+      >
+        Sign In
+      </button>
+      <a href="./index.html" class="badge badge-secondary py-1 w-100 mb-3"
+        ><br />Create a new account?<br
+      /></a>
+>
+    </div>
+
+    <script type="module" src="login.js"></script>
+    <script>
+      document.getElementById("sub_btn").addEventListener("click", function () {
+        var username = document.getElementById("userInp").value;
+        var password = document.getElementById("passInp").value;
+
+        if (username === "" || password === "") {
+          alert("Please enter both username and password!");
+        }
+      });
+    </script>
+  </body>
+</html>

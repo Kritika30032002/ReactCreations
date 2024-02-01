@@ -1,0 +1,56 @@
+.main_login_page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 700px;
+}
+
+.Tourist_login {
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  border-radius: 10px;
+}
+
+.Guide_login {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  border-radius: 10px;
+}
+
+.Tourist_login_button {
+  height: 50px;
+  width: 200px;
+  margin: 300px 50px 50px 250px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(220, 255, 252);
+  font-size: 15px;
+}
+
+.Guide_login_button {
+  height: 50px;
+  width: 200px;
+  margin: 300px 50px 50px 250px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(213, 255, 219);
+  font-size: 15px;
+}

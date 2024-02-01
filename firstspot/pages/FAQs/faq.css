@@ -1,0 +1,35 @@
+#question{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: large;
+}
+#question p{
+    color: black;
+    font-weight: 400;
+}
+.answer{
+    display: none;
+    width: 40vw;
+    color:rgb(114, 110, 110);
+}
+h3{
+    font-size: 30px;
+}
+#faq{
+    margin: 30px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#faq span{
+    cursor: pointer;
+}
+@media screen and (max-width:420px) {
+    #question, .answer{
+        width:80vw;
+    }
+}
