@@ -1,9 +1,9 @@
-const errorHandler = require("../middelwares/errorMiddleware");
+const errorHandler = require("../middlewares/errorMiddleware");
 const userModel = require("../models/userModel");
-const errorResponse = require("../utils/errroResponse");
+const errorResponse = require("../utils/errorResponse");
 
 // JWT TOKEN
-exports.sendToken = (user, statusCode, res) => {
+const sendToken = (user, statusCode, res) => {
   const token = user.getSignedToken(res);
   res.status(statusCode).json({
     success: true,
@@ -11,52 +11,65 @@ exports.sendToken = (user, statusCode, res) => {
   });
 };
 
-//REGISTER
-exports.registerContoller = async (req, res, next) => {
+// REGISTER
+exports.registerController = async (req, res, next) => {
   try {
     const { username, email, password } = req.body;
-    //exisitng user
-    const exisitingEmail = await userModel.findOne({ email });
-    if (exisitingEmail) {
-      return next(new errorResponse("Email is already register", 500));
+    // Check if email already exists
+    const existingEmail = await userModel.findOne({ email });
+    if (existingEmail) {
+      return next(new errorResponse("Email is already registered", 400));
     }
+    // Create new user
     const user = await userModel.create({ username, email, password });
-    this.sendToken(user, 201, res);
+    sendToken(user, 201, res);
   } catch (error) {
-    console.log(error);
+    console.error(error);
     next(error);
   }
 };
 
-//LOGIN
+// LOGIN
 exports.loginController = async (req, res, next) => {
   try {
     const { email, password } = req.body;
-    //validation
+    // Validate email and password
     if (!email || !password) {
-      return next(new errorResponse("Please provide email or password"));
+      return next(new errorResponse("Please provide email and password", 400));
     }
+    // Find user by email
     const user = await userModel.findOne({ email });
     if (!user) {
-      return next(new errorResponse("Invalid Creditial", 401));
+      return next(new errorResponse("Invalid credentials", 401));
     }
+    // Check if password matches
     const isMatch = await user.matchPassword(password);
     if (!isMatch) {
-      return next(new errorResponse("Invalid Creditial", 401));
+      return next(new errorResponse("Invalid credentials", 401));
     }
-    //res
-    this.sendToken(user, 200, res);
+    // Send token
+    sendToken(user, 200, res);
   } catch (error) {
-    console.log(error);
+    console.error(error);
     next(error);
   }
 };
 
-//LOGOUT
-exports.logoutController = async (req, res) => {
-  res.clearCookie("refreshToken");
-  return res.status(200).json({
-    success: true,
-    message: "Logout Succesfully",
-  });
+// LOGOUT
+exports.logoutController = async (req, res, next) => {
+  try {
+    // Clear refresh token
+    res.clearCookie("refreshToken");
+    // Send success response
+    res.status(200).json({
+      success: true,
+      message: "Logout successfully",
+    });
+  } catch (error) {
+    console.error(error);
+    next(error);
+  }
 };
+
+// Apply error handler middleware
+exports.errorHandler = errorHandler;
