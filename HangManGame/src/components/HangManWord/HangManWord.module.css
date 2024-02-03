@@ -1,0 +1,11 @@
+.hangManWordContainer {
+  display: flex;
+  gap: 1rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.letter {
+  border-bottom: 0.5rem solid black;
+}

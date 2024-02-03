@@ -3,8 +3,24 @@ import styles from "./calculator.module.css"
 
 const Calculator = () => {
   const [result, setResult] = useState('');
+  const [isPrevOp, setIsPrevOP] = useState(false);
 
-  const handleClick = e => setResult(result.concat(e.target.id))
+  const handleClick = (e) => {
+    const clickedButton = e.target.id;
+
+    if (['+', '-', '*', '/', '.'].includes(clickedButton)) {
+      setIsPrevOP(true);
+    } 
+    else {
+      setIsPrevOP(false);
+      setResult(result.concat(clickedButton));
+    }
+
+    if (!isPrevOp) {
+      setResult(result.concat(clickedButton));
+    }
+
+  }
 
   const deleteEl = () => setResult(result.slice(0, -1))
   const clear = () => setResult('')
@@ -45,8 +61,8 @@ const Calculator = () => {
           <button onClick={clear} className={styles.operator}>AC</button>
           <button onClick={deleteEl} className={styles.operator}>DE</button>
 
-          <button id="." className={styles.operator} >.</button>
-          <button id="/" className={styles.operator} >/</button>
+          <button id="." className={styles.operator} onClick={handleClick}>.</button>
+          <button id="/" className={styles.operator} onClick={handleClick}>/</button>
 
           <button id="7" className={styles.number} onClick={handleClick}>7</button>
           <button id="8" className={styles.number} onClick={handleClick}>8</button>

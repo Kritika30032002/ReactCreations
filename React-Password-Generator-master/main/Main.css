@@ -1,0 +1,39 @@
+.left {
+  margin: 20px;
+  width: 40%;
+  border: 1px solid lightgrey;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.right {
+  margin: 20px;
+  width: 40%;
+}
+
+.container {
+  width: 60%;
+  margin: 0px auto;
+  border: 1px solid #ccc;
+  overflow-x: hidden;
+}
+
+.result {
+  width: 60%;
+  margin: 20px auto;
+  color: "blue";
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}

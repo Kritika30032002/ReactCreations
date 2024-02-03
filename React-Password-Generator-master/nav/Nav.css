@@ -1,0 +1,14 @@
+.header {
+  padding: 0px;
+  min-height: 300px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    min-height: 250px;
+  }
+}

@@ -98,7 +98,7 @@
     }
 
     .main-ad-btn{
-        width:100px;
+        width:120px;
         height: 40px;
         font-size: 14px;
         display: flex;
@@ -140,4 +140,3 @@
         width:350px;
     }
 }
-

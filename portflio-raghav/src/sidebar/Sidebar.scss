@@ -1,0 +1,109 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    
+    
+    .bg{
+        
+        position: fixed;
+        // z-index:99 ;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background: white;
+        
+    }
+    
+    .links{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+    }
+    
+    a{
+        font-size: 40px;
+        // pointer-events: none;
+        text-decoration: none;
+        color: black;
+    }
+    
+    button{
+        
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: fixed;
+        top: 25px;
+        left: 25px;
+        background-color: transparent;
+        border: none;
+        
+        #checkbox {
+            display: none;
+        }
+        
+        .toggle {
+            position: relative;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            transition-duration: .3s;
+          }
+          
+          .bars {
+            width: 30px;
+            height: 3px;
+            background-color: black;
+            border-radius: 5px;
+            transition-duration: .3s;
+            margin-left: 8px;
+
+            
+            
+          }
+          
+          #checkbox:checked + .toggle .bars {
+            margin-left: 13px;
+          }
+          
+          #checkbox:checked + .toggle #bar2 {
+            transform: rotate(135deg);
+            margin-left: 0;
+            transform-origin: center;
+            transition-duration: .3s;
+          }
+          
+          #checkbox:checked + .toggle #bar1 {
+            transform: rotate(45deg);
+            transition-duration: .3s;
+            transform-origin: left center;
+          }
+          
+          #checkbox:checked + .toggle #bar3 {
+            transform: rotate(-45deg);
+            transition-duration: .3s;
+            transform-origin: left center;
+          }
+          
+    }
+
+    
+
+}
+
+

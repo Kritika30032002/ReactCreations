@@ -1,0 +1,15 @@
+.header{
+    height:40px;
+    width:100%;
+    background-color:black;
+    position:absolute;
+    top:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.headerInfo{
+    color:white;
+    margin:0;
+    padding:0
+}

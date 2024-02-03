@@ -1,0 +1,236 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+  resize: none;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.listening {
+  background-color: #ff6961;
+  color: white;
+}
+.notification-card {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff; /* Set the background color as needed */
+  padding: 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.notification-card p {
+  margin: 0;
+}
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 100% of the viewport height */
+}
+
+.notification-card {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center; /* Center the content horizontally */
+}
+
+.notify-message {
+  background-color: #d4edda; /* Light green background color */
+  color: #155724; /* Dark green text color */
+  padding: 10px; /* Reduced padding */
+  font-size: 14px; /* Smaller font size */
+  border: none; /* Remove the border */
+  border-radius: 6px;
+  width: 180px;
+  margin-top: -37px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+.dark {
+  position: absolute;
+  top: 30px; /* Adjust the top position as needed */
+  right: 30px; /* Adjust the right position as needed */
+  margin: 0; /* Reset margin to ensure accurate positioning */
+
+  /* Add any other styles you need for the dark mode button */
+}
+
+.light-mode {
+  background: linear-gradient(270deg, #f8f3f2, #d6d4d4, #cfc8c8, #c0bbbb);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 34s ease infinite;
+  -moz-animation: AnimationName 34s ease infinite;
+  animation: AnimationName 34s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.dark-mode {
+  background: linear-gradient(270deg, #565f5d, #000000, #302a2a, #363333);
+  background-size: 800% 800%;
+  animation: AnimationName 40s ease infinite,
+    AnotherAnimationName 30s ease infinite; /* Added AnotherAnimationName */
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnotherAnimationName {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.dark-mode textarea {
+  background-color: #1f1f1f; /* Dark black background color for textarea */
+  color: #ffffff; /* White text color for textarea */
+}
+
+.ant-btn {
+  /* Default button styles for light mode */
+  border-color: #d9d9d9; /* Default border color */
+}
+
+/* Dark mode styles for buttons */
+.dark-mode .ant-btn {
+  color: black; /* White text color for dark mode */
+  background-color: white; /* Dark background color for dark mode */
+  border-color: #666; /* Dark border color for dark mode */
+}
+
+/* Styles for light mode */
+.preview-container {
+  position: relative;
+  bottom: -20px; /* Adjust the bottom position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f0f0f0; /* Default background color in light mode */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: visible;
+}
+
+.preview {
+  color: #000; /* Default text color in light mode */
+}
+
+/* Styles for dark mode */
+.dark-mode .preview-container {
+  background-color: #333; /* Dark background color in dark mode */
+}
+
+.dark-mode .preview {
+  color: #fff; /* White text color in dark mode */
+}
+
+.dark-mode .word-count-preview {
+  color: #fff; /* Change text color to white in dark mode */
+  /* Add more styling for the dark mode if needed */
+}
+
+
+
+.title
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #b6b3c3 0%,
+    #999999 29%,
+    #000000 67%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4.5s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

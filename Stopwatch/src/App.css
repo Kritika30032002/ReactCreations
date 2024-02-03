@@ -1,0 +1,18 @@
+.box {
+  flex-direction: column;
+  font-size: xx-large;
+  background-color: whitesmoke;
+  width: 80%;
+  height: fit-content;
+  padding: 50px;
+  margin: 25px;
+}
+
+.alert {
+  width: fit-content;
+}
+
+.btn {
+  margin: 20px;
+  margin-top: 0;
+}
