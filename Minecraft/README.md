@@ -43,4 +43,4 @@ You world is stored in your browsers local storage.
 - **Dependencies:** npm, node
 
 #### Demo
-Check out the demo of the Minecraft clone on YouTube: [Minecraft Clone Demo]([https://www.youtube.com/watch?v=tEpxRJsOYTY](https://youtu.be/Kc5pwakHoc8)https://youtu.be/Kc5pwakHoc8)
+Check out the demo of the Minecraft clone on YouTube: [Minecraft Clone Demo](https://youtu.be/Kc5pwakHoc8)(https://youtu.be/Kc5pwakHoc8)
