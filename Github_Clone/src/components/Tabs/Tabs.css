@@ -1,0 +1,10 @@
+.nav-tabs,
+.nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  font-weight: bold;
+  color: #000;
+}
+.nav-link {
+  font-size: 14px;
+  color: #586069;
+}
