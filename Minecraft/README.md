@@ -12,11 +12,35 @@ You world is stored in your browsers local storage.
 
 ![Preview](preview.png 'Preview')
 
-## Setup
+### How to Run
 
-In the project directory, you can run:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Kritika30032002/ReactCreations.git
+   ```
 
-### `npm install && npm start`
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd ReactCreations\Minecraft 
+   ```
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the Server on Port 3000:**
+   ```bash
+   npm start
+   ```
+
+5. **Access the Server:**
+   Once the server is running, you can access it in your web browser by navigating to `http://localhost:3000`.
+
+
+#### Tech Stack
+- **Frontend:** React.js
+- **Dependencies:** npm, node
+
+#### Demo
+Check out the demo of the Minecraft clone on YouTube: [Minecraft Clone Demo]([https://www.youtube.com/watch?v=tEpxRJsOYTY](https://youtu.be/Kc5pwakHoc8)https://youtu.be/Kc5pwakHoc8)
