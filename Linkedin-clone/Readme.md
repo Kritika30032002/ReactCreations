@@ -12,11 +12,34 @@
 10. Add Post Images
 11. Search For Other Users
 
-## Setup
+#### Tech Stack
+- **Frontend:** React.js
+- **Dependencies:** npm, node, firebase,
 
-In the project directory, you can run:
+#### Demo
+Check out the demo of the LinkedIn clone on YouTube: [LinkedIn Clone Demo](https://youtu.be/nSF2D21JgDw)
 
-### `npm install && npm start`
+### How to Run
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Kritika30032002/ReactCreations.git
+   ```
+
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd ReactCreations\Github_Clone 
+   ```
+
+3. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Start the Server on Port 3000:**
+   ```bash
+   npm start
+   ```
+
+5. **Access the Server:**
+   Once the server is running, you can access it in your web browser by navigating to `http://localhost:3000`.
