@@ -1,33 +1,27 @@
-name: 'CodeQL'
+name: "CodeQL"
 
 on:
   push:
-    branches: ['main']
+    branches: [ main ]
   pull_request:
-    branches: ['main']
+    branches: [ main ]
   schedule:
-    - cron: '19 19 * * 0'
+    - cron: '35 14 * * 3'
 
 jobs:
   analyze:
     name: Analyze
-    runs-on: ${{ (matrix.language == 'javascript' && 'macos-latest') || 'ubuntu-latest' }}
-    timeout-minutes: ${{ (matrix.language == 'javascript' && 120) || 360 }}
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
-
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        language: ['javascript']
+        os: ['ubuntu-latest', 'macos-latest', 'windows-latest']
+        language: [ 'javascript' ]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
@@ -38,5 +32,3 @@ jobs:
 
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
-        with:
-          category: '/language:${{matrix.language}}'
