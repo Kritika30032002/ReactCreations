@@ -1,0 +1,50 @@
+{
+	"name": "client",
+	"version": "1.1.0",
+	"private": true,
+	"dependencies": {
+		"@material-ui/core": "^4.12.3",
+		"@material-ui/icons": "^4.11.2",
+		"@material-ui/lab": "^4.0.0-alpha.60",
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^12.0.0",
+		"@testing-library/user-event": "^13.2.1",
+		"axios": "^0.21.4",
+		"filepond": "^4.29.1",
+		"filepond-plugin-file-encode": "^2.1.10",
+		"filepond-plugin-file-validate-type": "^1.2.6",
+		"filepond-plugin-image-crop": "^2.0.6",
+		"filepond-plugin-image-preview": "^4.6.9",
+		"filepond-plugin-image-resize": "^2.0.10",
+		"filepond-plugin-image-transform": "^3.8.7",
+		"materialize-css": "^1.0.0",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-filepond": "^7.1.1",
+		"react-icons": "^4.2.0",
+		"react-reactions": "github:randomdipesh/react-reactions",
+		"react-router-dom": "^5.3.0",
+		"react-scripts": "^4.0.3"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
