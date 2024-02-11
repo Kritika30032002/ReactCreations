@@ -1,0 +1,83 @@
+.posts-card {
+  width: 550px;
+  min-height: auto;
+  background-color: whitesmoke;
+  margin-top: 30px;
+  border: 1px solid #b7b7b7;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  .post-image-wrapper {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+    position: relative;
+  }
+  .profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .name {
+    font-family: system-ui, sans-serif;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 600;
+    margin: 0px 0 0 0px;
+    cursor: pointer;
+  }
+  .headline {
+    font-family: system-ui, sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    margin: 0px 0 0 0px;
+  }
+  .timestamp {
+    font-family: system-ui, sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    margin: 0px 0 0 0px;
+  }
+
+  .status {
+    text-align: left;
+    margin: 10px 0 0 10px;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+  }
+}
+
+.action-container {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  display: flex;
+  top: 10px;
+  .action-icon {
+    color: #474747;
+    padding: 10px;
+  }
+
+  .action-icon:hover {
+    color: #000000;
+    background-color: #b7b7b7;
+    padding: 10px;
+    border-radius: 50%;
+  }
+}
+
+.post-image {
+  cursor: pointer;
+  width: 100%;
+}
+
+.modal {
+  margin-top: 30px;
+}
