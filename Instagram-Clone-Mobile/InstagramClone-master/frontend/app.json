@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "instagram",
+    "slug": "instagram",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "useNextNotificationsApi": true,
+      "package": "com.instagram.simcoder",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "****"
+        }
+      }
+    },
+    "ios": {
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.instagram.simcoder",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "****"
+        },
+        "googleMapsApiKey": "****"
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    }
+  }
+}
